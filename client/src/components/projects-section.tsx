@@ -13,7 +13,7 @@ interface DiscordStats {
 export default function ProjectsSection() {
   const projects = [
     {
-      title: "🦇 Acetyl",
+      title: "🦇 ShadowX",
       description: "Roblox bypassing community and more",
       technologies: [],
       features: [
