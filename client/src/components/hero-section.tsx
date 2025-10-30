@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { SiDiscord, SiInstagram, SiTelegram } from 'react-icons/si';
-import profileImage from '@assets/daeea70a057798d2883d9bf310bd1993_1760030443875.jpg';
 
 export default function HeroSection() {
   const socialLinks = [
@@ -41,14 +40,14 @@ export default function HeroSection() {
           {/* Photo */}
           <div className="mb-8">
             <div className="w-48 h-48 mx-auto rounded-full border-4 border-purple-400 shadow-lg shadow-purple-500/50 overflow-hidden">
-              <img 
-                src={profileImage} 
-                alt="Ynxiety Profile" 
+              <img
+                src="https://files.catbox.moe/k3im62.jpg"
+                alt="Ynxiety Profile"
                 className="w-full h-full object-cover"
               />
             </div>
           </div>
-          
+
           <h1 className="text-6xl md:text-8xl font-bold mb-6">
             <span className="gradient-text relative z-10">Ynxiety</span>
           </h1>
@@ -56,7 +55,7 @@ export default function HeroSection() {
             Developer & Creator of innovative Roblox exploitation tools
           </p>
         </motion.div>
-        
+
         {/* Floating Elements */}
         <motion.div
           className="absolute top-20 left-10"
@@ -83,3 +82,4 @@ export default function HeroSection() {
     </section>
   );
 }
+
